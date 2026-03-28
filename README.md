@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎮 Tic Tac Toe Game (HTML, CSS & JavaScript)
 
 An interactive **Tic Tac Toe** web game built using **HTML**, **CSS**, and **JavaScript**.
@@ -47,11 +48,55 @@ Tic-Tac-Toe-Game/
 ├── style.css     # Primary styling
 ├── main.css      # Additional styles
 ├── script.js     # Game logic
+=======
+# 🎮 Tic Tac Toe Game
+
+A modern and interactive **Tic Tac Toe** web application where users can play either against another player or against the computer. The game also includes a **light/dark theme toggle** for a better user experience.
+
+---
+
+## 🚀 Features
+
+* 🧑‍🤝‍🧑 **Two Player Mode**
+  Play with a friend on the same device.
+
+* 🤖 **One Player Mode (vs Computer)**
+  Play against a basic AI opponent.
+
+* 🌙☀️ **Light/Dark Theme Toggle**
+  Switch between themes for comfortable viewing.
+
+* 🔄 **Reset & New Game Options**
+  Restart the current game anytime.
+
+* 🎯 **Win Detection & Draw Handling**
+  Automatically detects winners and draws.
+
+---
+
+## 🧱 Project Structure
+
+```
+project/
+│
+├── main.html              # Landing page
+├── 1player.html           # Single player mode
+├── 2player.html           # Two player mode
+│
+├── main.js                # Theme toggle + shared logic
+├── 1player.js             # Single player game logic
+├── 2playerscript.js       # Two player game logic
+│
+├── main.css               # Landing page styles
+├── style.css              # Game styles
+│
+>>>>>>> 3ded3d6 (Updated game logic and UI)
 └── README.md
 ```
 
 ---
 
+<<<<<<< HEAD
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Clone the repository
@@ -103,3 +148,56 @@ Double-click main.html
 This project is open-source and created for learning purposes.
 
 ---
+=======
+## 🖥️ How to Run
+
+1. Download or clone the repository
+2. Open `main.html` in your browser
+3. Choose:
+
+   * **Vs Computer** (1 Player)
+   * **Vs Friend** (2 Player)
+
+---
+
+## 🎮 How to Play
+
+* Players take turns placing **X** and **O**
+* First player to align 3 marks wins
+* If all boxes are filled → it's a draw
+
+---
+
+## 🌗 Theme Toggle
+
+* Use the toggle button on the landing page
+* Your theme preference is saved automatically
+* Applies across all pages
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML
+* CSS (with variables for theming)
+* JavaScript (DOM manipulation + game logic)
+
+---
+
+## 💡 Future Improvements
+
+* Smarter AI opponent 🤖
+* Animations for winning patterns ✨
+* Sound effects 🔊
+* Mobile responsiveness 📱
+
+---
+
+## 📌 Author
+
+Developed as a front-end project to practice JavaScript, UI design, and DOM manipulation.
+
+---
+
+⭐ Feel free to improve and customize!
+>>>>>>> 3ded3d6 (Updated game logic and UI)
